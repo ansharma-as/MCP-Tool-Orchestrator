@@ -1,0 +1,23 @@
+System Health Report:
+
+System Information:
+  OS: Darwin
+  Release: 25.0.0
+  Version: Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:23 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8122
+  Architecture: arm64
+  Hostname: Ansh-MacBook-Air.local
+  Uptime: 349105 seconds
+  CPU Model: arm
+  CPU Cores: 8
+  Total Memory: 8589934592 bytes
+  Free Memory: 1327775744 bytes
+
+CPU Usage:
+  Current CPU Usage: 17.1% (measured over 0.5 seconds)
+
+Top Processes by CPU:
+  - kernel_task (PID: 0, CPU: 0%, Memory: 0%)
+  - launchd (PID: 1, CPU: 0%, Memory: 0%)
+  - logd (PID: 336, CPU: 0%, Memory: 0%)
+  - UserEventAgent (PID: 338, CPU: 0%, Memory: 0%)
+  - fseventsd (PID: 340, CPU: 0%, Memory: 0%)

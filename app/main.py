@@ -62,7 +62,6 @@ def list_processes(limit: int = 5) -> List[Dict[str, Any]]:
 def store_in_file(file_name: str, content: str) -> Dict[str, Any]:
     if not file_name:
         raise ValueError("file_name is required")
-    # Save relative to this package directory so it's stable regardless of CWD
     base_dir = Path(__file__).resolve().parent.parent  # MCP/
     out_dir = base_dir / "output"
     out_dir.mkdir(parents=True, exist_ok=True)
